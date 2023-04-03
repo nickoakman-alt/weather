@@ -83,7 +83,7 @@ if not args.ipv6:
 dt = datetime.datetime.now(datetime.timezone.utc)
 if args.date:
     dt = datetime.datetime.fromisoformat(args.date)
-mycoords = numpy.array([-90.50483, 41.44777])
+mycoords = numpy.array([-98.5795, 39.8283])
 if args.location:
     location = args.location.split(',')
     lat = float(location[0])
